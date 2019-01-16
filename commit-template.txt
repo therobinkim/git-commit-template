@@ -1,0 +1,34 @@
+
+#                                      ^                               ^
+#                                     50                              72
+# GitHub truncates commit subjects that are longer than 72 characters,
+# so keep them short and explain the rest in the body of the commit.
+#
+# Your commits (and pull requests) should be as small as possible.
+# This means you should never commit your `node_modules` or `bundle.js`.
+#
+# If you can't think of a good commit message, you probably should have
+# committed sooner. It's hard to write a concise commit message for many
+# unrelated changes.
+#
+# Challenge yourself:
+# 1. Think ahead about what you want your next commit message to be.
+#    Try as hard as you can to make sure your next commit only includes
+#    relevant code.
+# 2. Make your commits contain as few lines of changes as possible.
+#    `git add -p` (in lieu of `git add .` or `git add -A`) might help!
+#    Realistically, this will have you create more commits (yay!).
+# 3. Use `git commit` instead of `git commit -m`.
+#
+#
+# The seven rules of a great Git commit message
+# 1. Separate subject from body with a blank line
+# 2. Limit the subject line to 50 characters
+# 3. Capitalize the subject line
+# 4. Do not end the subject line with a period
+# 5. Use the imperative mood in the subject line
+# 6. Wrap the body at 72 characters
+# 7. Use the body to explain what and why vs. how
+#
+# https://chris.beams.io/posts/git-commit/#seven-rules
+#
