@@ -11,7 +11,7 @@ Steps:
 
 2. Tell Git to use `~/.gitmessage` as a template for all commit messages.
 
-    a. Run the following command in your terminal: `git config --global commit-template ~/.gitmessage`
+    a. Run the following command in your terminal: `git config --global commit.template ~/.gitmessage`
 
     b. You're done!
   
